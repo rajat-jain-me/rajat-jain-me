@@ -1,1 +1,50 @@
- 
+/* Responsive styles */
+@media (max-width: 600px) {
+  body {
+    font-size: 1em;
+  }
+
+  main {
+    margin: 24px auto;
+    padding: 0 12px;
+  }
+
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1rem;
+  }
+
+  .profile {
+    width: 120px;
+    height: 120px;
+  }
+
+  .nav-bar {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 0;
+  }
+
+  .nav-bar a {
+    font-size: 0.9em;
+    padding: 6px 12px;
+  }
+
+  .wide-card {
+    padding: 24px 20px;
+    margin-bottom: 24px;
+  }
+
+  .box-grid {
+    gap: 10px;
+  }
+}
