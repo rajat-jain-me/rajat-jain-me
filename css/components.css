@@ -37,6 +37,7 @@
   object-fit: cover;
   background: #e6f2eb;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  object-position: top center;
   transition: transform 0.3s ease;
 }
 
