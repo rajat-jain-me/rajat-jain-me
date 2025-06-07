@@ -19,7 +19,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -68,4 +72,8 @@ footer {
   margin: 48px 0 24px 0;
   padding: 24px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
-} 
+}
+
+section {
+  scroll-margin-top: 80px;
+}
